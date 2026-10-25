@@ -83,5 +83,6 @@
 .service-tags span{border:1px solid #24272a35;border-radius:99px;padding:6px 10px;color:#34383c;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
 @media(max-width:767px){.services-intro{margin:-30px auto 48px;font-size:15px}.service-tags{gap:6px;margin-top:15px}.service-tags span{font-size:8px;padding:5px 8px}}
 
-/* Preserve the colour and fine detail of the upgraded central portrait. */
-.portrait-ring img{filter:saturate(.94) contrast(1.04) grayscale(.05)}
+/* Show the complete upgraded portrait rather than a zoomed face crop. */
+.portrait-ring{background:#27679f}
+.portrait-ring img{object-fit:contain;object-position:center center;filter:saturate(.94) contrast(1.04) grayscale(.05)}
