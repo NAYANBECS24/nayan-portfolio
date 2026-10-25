@@ -7,7 +7,7 @@ import content from './portfolio-data.json';
 type Project=typeof content.projects[number];
 type Evidence=typeof content.evidence[number];
 const BASE=import.meta.env.BASE_URL;
-const asset=(p:string)=>`${BASE}${p.replace(/^\//,'')}`;
+const asset=(p:string)=>`${BASE}${(p==='assets/portrait.webp'?'assets/portrait-hero-hq.png':p).replace(/^\//,'')}`;
 const CTAMail='mailto:nayankumar9987@gmail.com?subject=Hello%20Nayan%20%E2%80%94%20Portfolio%20Enquiry';
 const linkedIn='https://www.linkedin.com/in/nayan-nayan-69069233b/';
 const github='https://github.com/NAYANBECS24';
