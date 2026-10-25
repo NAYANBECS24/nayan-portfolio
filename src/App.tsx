@@ -117,5 +117,18 @@ function OpportunitiesSection(){return <section className="opportunities-section
 
 function ContactSection(){return <footer className="contact-section" id="contact"><div className="section-shell"><div className="small-index">11 / START A CONVERSATION</div><h2>LET’S BUILD<br/><em>WHAT’S NEXT.</em></h2><div className="footer-lower"><div><p>If you are hiring for security, AI or product engineering—or exploring an ambitious research collaboration—I would be glad to hear the problem you are working on.</p><a className="footer-email" href={CTAMail}>nayankumar9987@gmail.com <ArrowUpRight size={20}/></a></div><div className="footer-social"><a target="_blank" rel="noreferrer" href={linkedIn}><Linkedin size={18}/> LINKEDIN <ArrowUpRight size={17}/></a><a target="_blank" rel="noreferrer" href={github}><Github size={18}/> GITHUB <ArrowUpRight size={17}/></a><a href={asset('Nayan_Professional_Resume.pdf')} download><Download size={18}/> RESUME <ArrowUpRight size={17}/></a></div></div><div className="footer-end"><span>© 2026 NAYAN. MADE WITH INTENTION.</span><a href="#home">BACK TO TOP ↑</a><span>SECURITY · AI · PRODUCT</span></div></div></footer>}
 
-function FloatingCursor(){const [point,setPoint]=useState({x:-100,y:-100});useEffect(()=>{if(!window.matchMedia('(pointer:fine)').matches)return;const move=(e:PointerEvent)=>setPoint({x:e.clientX,y:e.clientY});window.addEventListener('pointermove',move,{passive:true});return()=>window.removeEventListener('pointermove',move)},[]);return <div className="cursor-glow" style={{left:point.x,top:point.y}}/>}
+function FloatingCursor(){
+ const [point,setPoint]=useState({x:-100,y:-100});
+ useEffect(()=>{if(!window.matchMedia('(pointer:fine)').matches)return;const move=(e:PointerEvent)=>setPoint({x:e.clientX,y:e.clientY});window.addEventListener('pointermove',move,{passive:true});return()=>window.removeEventListener('pointermove',move)},[]);
+ useEffect(()=>{
+  const hero=document.getElementById('home');
+  if(!hero||!window.matchMedia('(pointer:fine)').matches||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  let frame=0;let targetX=0;let targetY=0;let currentX=0;let currentY=0;
+  const paint=()=>{currentX+=(targetX-currentX)*.065;currentY+=(targetY-currentY)*.065;hero.style.setProperty('--orbit-one-x',`${currentX*.65}px`);hero.style.setProperty('--orbit-one-y',`${currentY*.65}px`);hero.style.setProperty('--orbit-two-x',`${currentX*-.38}px`);hero.style.setProperty('--orbit-two-y',`${currentY*-.38}px`);if(Math.abs(targetX-currentX)>.08||Math.abs(targetY-currentY)>.08)frame=window.requestAnimationFrame(paint);else frame=0};
+  const move=(event:PointerEvent)=>{targetX=((event.clientX/window.innerWidth)-.5)*24;targetY=((event.clientY/window.innerHeight)-.5)*18;if(!frame)frame=window.requestAnimationFrame(paint)};
+  const reset=()=>{targetX=0;targetY=0;if(!frame)frame=window.requestAnimationFrame(paint)};
+  window.addEventListener('pointermove',move,{passive:true});hero.addEventListener('pointerleave',reset);return()=>{window.cancelAnimationFrame(frame);window.removeEventListener('pointermove',move);hero.removeEventListener('pointerleave',reset)};
+ },[]);
+ return <div className="cursor-glow" style={{left:point.x,top:point.y}}/>
+}
 export default function App(){useEffect(()=>{if(!window.location.hash||window.location.hash.startsWith('#:~:'))return;const id=decodeURIComponent(window.location.hash.slice(1));const timer=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView(),180);return()=>window.clearTimeout(timer)},[]);return <div className="site-wrap"><FloatingCursor/><HeroSection/><ProofStrip/><FlagshipSection/><MarqueeSection/><AboutSection/><ServicesSection/><ProjectsSection/><ProjectExplorer/><ResearchSection/><ExperienceSection/><RecognitionSection/><GallerySection/><OpportunitiesSection/><ContactSection/></div>}
