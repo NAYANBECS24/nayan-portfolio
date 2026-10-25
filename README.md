@@ -15,6 +15,14 @@ Open the local address shown by Vite (normally http://localhost:5173).
 
 Build for production with `npm run build` (writes `dist/`). Deploy `dist/` to Netlify, Vercel, GitHub Pages or another static host. Set the `base` URL in `vite.config.ts` if publishing under a subdirectory.
 
+## Deploy on Vercel
+
+The repository includes `vercel.json`, so Vercel will install with `npm ci`, run `npm run build`, and publish `dist/` automatically.
+
+1. Import `NAYANBECS24/nayan-portfolio` in the Vercel dashboard.
+2. Keep the detected **Vite** framework preset and deploy from the `main` branch.
+3. Future pushes to `main` will trigger new Vercel production deployments.
+
 ## Stack
 
 React 18, TypeScript, Tailwind CSS 3, Framer Motion 12, Lucide React, Vite.
