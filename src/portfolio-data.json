@@ -1,0 +1,1142 @@
+{
+  "projects": [
+    {
+      "title": "TOR Sentinel",
+      "slug": "tor",
+      "category": [
+        "Cybersecurity",
+        "AI & Data"
+      ],
+      "featured": true,
+      "number": "01",
+      "eyebrow": "Federated AI · Privacy",
+      "description": "An investigation-focused research design for TOR traffic analysis without centralizing raw personal data.",
+      "details": [
+        "Designed federated learning across ISPs without exchanging raw personally identifiable information.",
+        "Developed Adaptive Time-Window Correlation (ATWC) to address varying TOR latency.",
+        "Reported >80% probabilistic tracing confidence in simulation; proposed blockchain-backed judicial audit trails."
+      ],
+      "stack": [
+        "Federated Learning",
+        "Cyber Forensics",
+        "Blockchain",
+        "ATWC"
+      ],
+      "badge": "Award-winning project",
+      "status": "Research / simulation",
+      "link": "",
+      "image": "assets/project-tor.webp"
+    },
+    {
+      "title": "Project SUTRADHAR",
+      "slug": "sutra",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": true,
+      "number": "02",
+      "eyebrow": "GenAI · Education",
+      "description": "A context-aware AI tutor adapting NCERT content into culturally relevant, regional-language learning experiences.",
+      "details": [
+        "Led Team PARTH during the NIT Tiruchirappalli Education Track.",
+        "Built the Gurukul Context Engine around Llama-3 and Bhashini for localized explanations.",
+        "Designed regional-dialect video tutors using Stable Diffusion XL/LoRA, Wav2Lip and Tortoise TTS, with low-bandwidth messaging delivery."
+      ],
+      "stack": [
+        "Llama-3",
+        "Bhashini",
+        "LoRA",
+        "Wav2Lip",
+        "TTS"
+      ],
+      "badge": "NIT Trichy · 1st place",
+      "status": "Research project",
+      "link": "",
+      "image": "assets/project-sutra.webp"
+    },
+    {
+      "title": "Result Analyzer",
+      "slug": "result",
+      "category": [
+        "Web & Product",
+        "AI & Data"
+      ],
+      "featured": true,
+      "number": "03",
+      "eyebrow": "Full-Stack · Education",
+      "description": "An institutional academic analytics platform for results, grading, and student performance workflows.",
+      "details": [
+        "Independently developed role-based Admin, Faculty and Student interfaces.",
+        "Created bulk Excel imports, automated SGPA/CGPA computation, and grading analytics.",
+        "Received AVIT CSE Department appreciation and won the campus Mini Product Showcase."
+      ],
+      "stack": [
+        "Full-Stack",
+        "Excel Import",
+        "Analytics",
+        "Role-based Access"
+      ],
+      "badge": "Live product · Champion",
+      "status": "Live website",
+      "link": "https://resultanalyzer.infinityfreeapp.com/landing.php?i=1",
+      "image": "assets/project-result.webp"
+    },
+    {
+      "title": "AEGIS",
+      "slug": "aegis",
+      "category": [
+        "Cybersecurity",
+        "AI & Data"
+      ],
+      "featured": true,
+      "number": "04",
+      "eyebrow": "AI Security · DevSecOps",
+      "description": "A dual-engine guardrail concept combining supply-chain intelligence with adaptive runtime deception.",
+      "details": [
+        "Designed GhostGuard to identify package-name slopsquatting using an NPM/PyPI knowledge graph.",
+        "Architected Chimera, an adaptive digital-twin deception layer for runtime environments.",
+        "Reached semifinalist stage at the ET-AI Hackathon 2026."
+      ],
+      "stack": [
+        "FastAPI",
+        "LangChain",
+        "Neo4j",
+        "Pinecone",
+        "GPT-4o"
+      ],
+      "badge": "ET-AI · Semi-Finalist",
+      "status": "Hackathon project",
+      "link": "",
+      "image": "assets/evidence-07.webp"
+    },
+    {
+      "title": "ID Masker Tool",
+      "slug": "idmask",
+      "category": [
+        "Cybersecurity",
+        "AI & Data"
+      ],
+      "featured": true,
+      "number": "05",
+      "eyebrow": "Computer Vision · Privacy",
+      "description": "On-premise image and document redaction using custom object detection to locate and conceal sensitive personally identifiable information.",
+      "details": [
+        "Trained a Faster R-CNN (ResNet-50) model for sensitive image and document regions.",
+        "Added black-box masking, Gaussian blur and pixelation modes for privacy-preserving redaction.",
+        "Created a desktop processing workflow using PyTorch, OpenCV, Flask and Tkinter.",
+        "Presented live at iTech Hackathon Event 2025 (Karunguzhipallam, Tamil Nadu), demonstrating real-time bounding box extraction and secure masking."
+      ],
+      "stack": [
+        "PyTorch",
+        "Faster R-CNN",
+        "OpenCV",
+        "Flask",
+        "Tkinter"
+      ],
+      "badge": "iTech Hackathon 2025 · Presented",
+      "status": "Hackathon Prototype · Live Demo",
+      "link": "",
+      "image": "assets/project-idmask.png"
+    },
+    {
+      "title": "SOVARTH / Sovereign Nexus",
+      "slug": "sovarth",
+      "category": [
+        "Web3 & Quantum",
+        "Impact"
+      ],
+      "featured": true,
+      "number": "06",
+      "eyebrow": "Web3 · Financial Inclusion",
+      "description": "Privacy-first Cardano wallet concept for verifiable identity, asset-backed lending and cross-chain finance.",
+      "details": [
+        "Led Team PARTH on a wallet vision for underserved users across Asia.",
+        "Designed CIP-68 data-bound assets, identity credentials, and ZK-based credit scoring.",
+        "Placed in the Top 112 teams at Cardano Hackathon Asia 2025."
+      ],
+      "stack": [
+        "Cardano",
+        "CIP-68",
+        "Halo2",
+        "Atala PRISM",
+        "Hydra"
+      ],
+      "badge": "Asia · Top 112",
+      "status": "Hackathon concept",
+      "link": "",
+      "image": "assets/project-sovarth.webp"
+    },
+    {
+      "title": "EchoShield",
+      "slug": "echo",
+      "category": [
+        "Cybersecurity",
+        "AI & Data"
+      ],
+      "featured": false,
+      "number": "07",
+      "eyebrow": "Audio Security · Edge AI",
+      "description": "Privacy-first detection of AI-generated voices through real-time acoustic liveness signals.",
+      "details": [
+        "Analyzed breathing, micro-jitters, and room-tone characteristics to detect generated speech.",
+        "Project reports 98.7% accuracy and under 1.2-second response latency.",
+        "Designed language-agnostic support across multiple Indian languages."
+      ],
+      "stack": [
+        "Audio AI",
+        "Liveness",
+        "Edge AI"
+      ],
+      "badge": "Reported prototype result",
+      "status": "Prototype / reported results",
+      "link": "",
+      "image": "assets/evidence-26.webp"
+    },
+    {
+      "title": "Q-Shield",
+      "slug": "qshield",
+      "category": [
+        "Cybersecurity",
+        "Web3 & Quantum"
+      ],
+      "featured": false,
+      "number": "08",
+      "eyebrow": "Quantum ML · Ransomware",
+      "description": "Hybrid quantum-classical design to detect malicious system-call patterns before ransomware encryption.",
+      "details": [
+        "Proposed C++/Rust instrumentation for system-call rhythm and graph-encoded features.",
+        "Designed a parametrized quantum circuit plus classical neural classifier.",
+        "Created an IEEE Hackathon project architecture with a Streamlit interface."
+      ],
+      "stack": [
+        "C++",
+        "Rust",
+        "PennyLane",
+        "TensorFlow Quantum"
+      ],
+      "badge": "IEEE Hackathon",
+      "status": "Proposed architecture",
+      "link": "",
+      "image": "assets/evidence-28.webp"
+    },
+    {
+      "title": "GridWeaver",
+      "slug": "grid",
+      "category": [
+        "Impact",
+        "AI & Data"
+      ],
+      "featured": false,
+      "number": "09",
+      "eyebrow": "Energy · Embedded Systems",
+      "description": "Peer-to-peer resilient electricity network design with predictive control and secure energy exchange.",
+      "details": [
+        "Designed ESP32-S3 mesh coordination and Dynamic Islanding.",
+        "Reported under 200 ms recovery in hardware-in-the-loop validation.",
+        "Integrated LSTM forecasting, ATECC608A and Proof-of-Energy-Transfer."
+      ],
+      "stack": [
+        "ESP32-S3",
+        "LSTM",
+        "IoT",
+        "HSM"
+      ],
+      "badge": "Sustainable systems",
+      "status": "Research / HIL validation",
+      "link": "",
+      "image": "assets/evidence-40.webp"
+    },
+    {
+      "title": "SurakshaAI",
+      "slug": "suraksha",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": false,
+      "number": "10",
+      "eyebrow": "Road Safety · Privacy",
+      "description": "Road safety assistance combining edge vision, offline legal guidance and privacy-preserving evidence.",
+      "details": [
+        "Created an accident-risk and offline legal co-pilot design.",
+        "Used LENS-Net sign detection (reported 92.56% mAP) and encrypted rolling-buffer evidence.",
+        "Explored Circom zero-knowledge proofs for privacy-preserving challan disputes."
+      ],
+      "stack": [
+        "Edge Vision",
+        "Circom",
+        "zk-SNARKs"
+      ],
+      "badge": "Road Safety Hackathon",
+      "status": "Hackathon design",
+      "link": "",
+      "image": "assets/evidence-43.webp"
+    },
+    {
+      "title": "AgriSmart 2.0",
+      "slug": "agri",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": false,
+      "number": "11",
+      "eyebrow": "AgriTech · Sustainability",
+      "description": "AI-assisted precision agriculture for crop decisions, yield optimization and farmer market access.",
+      "details": [
+        "Proposed crop analysis and decision support for agricultural practices.",
+        "Connected data-driven farming assistance with direct market access.",
+        "First prize at National Science Day 2026; earlier version won third prize at SRM Hackathon.",
+        "Earlier Enhance AI Farming prototype fine-tuned VGG16 transfer learning in Jupyter and deployed a Flask-based image classification interface (reported roughly 70% prototype accuracy)."
+      ],
+      "stack": [
+        "AI Agriculture",
+        "Data Analytics",
+        "Decision Support"
+      ],
+      "badge": "Science Day · 1st place",
+      "status": "Competition project",
+      "link": "",
+      "image": "assets/project-agri.webp"
+    },
+    {
+      "title": "BharatRealEstateAI",
+      "slug": "realestate",
+      "category": [
+        "AI & Data",
+        "Web & Product"
+      ],
+      "featured": true,
+      "number": "12",
+      "eyebrow": "RAG · Multilingual Search",
+      "description": "Context-aware property discovery using multilingual intent and culturally informed recommendation logic.",
+      "details": [
+        "Designed RAG-based, emotion-aware matching in 12+ Indian languages.",
+        "Included Vastu, family living and visual-similarity preferences.",
+        "Reported ~94% simulated price prediction and ~180 ms search at a simulated 2.5M+ property scale."
+      ],
+      "stack": [
+        "RAG",
+        "Intel oneAPI",
+        "OpenVINO",
+        "Semantic Search"
+      ],
+      "badge": "Intel Unnati Program",
+      "status": "Prototype / reported benchmark",
+      "link": "",
+      "image": "assets/project-realestate.webp"
+    },
+    {
+      "title": "NutriLens",
+      "slug": "nutri",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": false,
+      "number": "13",
+      "eyebrow": "HealthTech · Cloud AI",
+      "description": "AI-first wellness and food coaching concept grounded in Indian regional food culture.",
+      "details": [
+        "Designed cuisine-aware AI coaching and personalization.",
+        "Architected service integrations using 8+ Google Cloud services.",
+        "Shortlisted for AMD Slingshot Regional Ideathon, Bengaluru, with submission leaderboard score 95.24."
+      ],
+      "stack": [
+        "Google Cloud",
+        "AI Coaching",
+        "HealthTech"
+      ],
+      "badge": "AMD Slingshot · Shortlisted",
+      "status": "Hackathon project",
+      "link": "",
+      "image": "assets/evidence-32.webp"
+    },
+    {
+      "title": "Sanjivani",
+      "slug": "sanjivani",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": false,
+      "number": "14",
+      "eyebrow": "Offline AI · Digital Health",
+      "description": "A decentralized, offline-first health platform concept for resilient access and patient-controlled records.",
+      "details": [
+        "Designed quantized Phi-3/TinyLlama multi-agent triage for on-device use.",
+        "Proposed DID/AES-256 data ownership, federated learning, and Wi-Fi Aware mesh networking.",
+        "Explored a community Health Points model."
+      ],
+      "stack": [
+        "Phi-3",
+        "TinyLlama",
+        "Federated Learning",
+        "DID"
+      ],
+      "badge": "Innovation challenge",
+      "status": "Concept architecture",
+      "link": "",
+      "image": "assets/evidence-41.webp"
+    },
+    {
+      "title": "BioForge Dustbin",
+      "slug": "bioforge",
+      "category": [
+        "AI & Data",
+        "Impact"
+      ],
+      "featured": false,
+      "number": "15",
+      "eyebrow": "Computer Vision · Smart Cities",
+      "description": "Smart waste segregation concept pairing embedded image recognition with local biogas production.",
+      "details": [
+        "Designed onboard vision classification of biodegradable and non-biodegradable waste.",
+        "Combined segregation with on-site conversion of organic waste to usable biogas.",
+        "Proposed for community and smart-city sustainability deployments."
+      ],
+      "stack": [
+        "Computer Vision",
+        "Embedded AI",
+        "Sustainability"
+      ],
+      "badge": "Sustainable innovation",
+      "status": "Concept",
+      "link": "",
+      "image": "assets/project-bioforge.webp"
+    },
+    {
+      "title": "JobDham.in",
+      "slug": "jobdham",
+      "category": [
+        "Web & Product"
+      ],
+      "featured": true,
+      "number": "16",
+      "eyebrow": "Full-Stack · Employment",
+      "description": "A deployed jobs platform with custom PHP/MySQL functionality and advertising integration.",
+      "details": [
+        "Developed and hosted the web application using HTML, CSS, JavaScript, PHP and MySQL.",
+        "Deployed with Hostinger and integrated Google verification and AdSense.",
+        "Described in resume as an advertising-supported, revenue-generating product.",
+        "Google Site Kit/AdSense reporting screenshot documents active advertisements and small initial revenue, not a large commercial business."
+      ],
+      "stack": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "Hostinger"
+      ],
+      "badge": "Live platform",
+      "status": "Live website",
+      "link": "https://jobdham.in",
+      "image": "assets/project-jobdham.webp"
+    },
+    {
+      "title": "Eduooze · School of Banking",
+      "slug": "eduooze",
+      "category": [
+        "Web & Product"
+      ],
+      "featured": false,
+      "number": "17",
+      "eyebrow": "Full-Stack · EdTech",
+      "description": "Banking education and candidate enrollment website developed for Eduooze Skill Institute as a web developer.",
+      "details": [
+        "Developed customer-facing pages, registration pathways and event/content sections for the banking-skills organization.",
+        "Worked with HTML, CSS, JavaScript, PHP and MySQL on enrollment and product-sales workflows.",
+        "Role: Web Developer — not company founder. An earlier, separate Computer Operator offer letter is on record."
+      ],
+      "stack": [
+        "HTML / CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "badge": "Web Developer",
+      "status": "Website",
+      "link": "https://eduoozeschoolofbanking.infinityfreeapp.com",
+      "image": "assets/project-eduooze.webp"
+    },
+    {
+      "title": "Fashion Image Classifier",
+      "slug": "fashion",
+      "category": [
+        "AI & Data"
+      ],
+      "featured": false,
+      "number": "18",
+      "eyebrow": "Computer Vision · Learning Project",
+      "description": "Keras/TensorFlow clothing-image classifier trained and evaluated in Jupyter Notebook.",
+      "details": [
+        "Trained on a 60,000-image fashion dataset, with a 10-class prediction task and 10 training epochs.",
+        "Implemented preprocessing, predictions, confusion-matrix analysis and classification reports.",
+        "A shared notebook screenshot displays about 0.90 overall accuracy on its 10,000-example evaluation split; results are experiment-specific."
+      ],
+      "stack": [
+        "Python",
+        "Keras",
+        "TensorFlow",
+        "NumPy",
+        "Jupyter"
+      ],
+      "badge": "60,000 training images",
+      "status": "Completed learning project",
+      "link": "",
+      "image": "assets/project-fashion.webp"
+    },
+    {
+      "title": "KAVACH TRINETRA X2",
+      "slug": "kavach",
+      "category": [
+        "Cybersecurity",
+        "AI & Data"
+      ],
+      "featured": true,
+      "number": "19",
+      "eyebrow": "Application Security · Offline AI",
+      "description": "A local-first application security workbench for authorized repository assessment, evidence-backed repair evaluation and explicit assurance decisions.",
+      "details": [
+        "Built a repository intake and discovery workflow that records source identity, target hashes, finding locations, weakness classifications and supporting evidence.",
+        "Separated static discovery, candidate diffs and executable verification so a repair earns higher assurance only after supported security, regression and mission checks run.",
+        "Added optional local Ollama reasoning with a deterministic fallback, plus PRAMAAN content-addressed evidence capsules for eligible verification paths.",
+        "Received a Certificate of Appreciation for exemplary performance at the Indian Army Terrier Cyber Quest 2026."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Ollama",
+        "Docker"
+      ],
+      "badge": "Indian Army Cyber Quest · Appreciation",
+      "status": "Repository-based PoC · Public source",
+      "link": "https://github.com/NAYANBECS24/KAVACH-TRINETRA-X2",
+      "image": "assets/project-kavach.webp"
+    },
+    {
+      "title": "Q-IMMUNE CORTEX",
+      "slug": "qimmune",
+      "category": [
+        "Cybersecurity",
+        "Web3 & Quantum"
+      ],
+      "featured": false,
+      "number": "20",
+      "eyebrow": "Post-Quantum Security · Migration",
+      "description": "Post-quantum readiness and migration workflow, from cryptography inventory through canary rollout.",
+      "details": [
+        "Mapped an intake → crypto discovery → CBOM → risk → PQC recommendation → quantum lab pipeline.",
+        "Explored ML-KEM, ML-DSA, SLH-DSA, quantum simulation and a digital twin for compatibility impact.",
+        "Designed guardian controls for staged policy rollout, observability and rollback."
+      ],
+      "stack": [
+        "Python",
+        "Qiskit Aer",
+        "FastAPI",
+        "ML-KEM",
+        "React"
+      ],
+      "badge": "PQC research prototype",
+      "status": "Hackathon / prototype",
+      "link": "",
+      "image": "assets/evidence-28.webp"
+    },
+    {
+      "title": "DataPilot Eunoia",
+      "slug": "datapilot",
+      "category": [
+        "AI & Data",
+        "Web & Product"
+      ],
+      "featured": false,
+      "number": "21",
+      "eyebrow": "AI Agents · Data",
+      "description": "Schema-aware conversational database copilot for safe SQL analytics and chart generation.",
+      "details": [
+        "Developed the architecture for user intent detection, schema-grounded SQL generation and query transparency.",
+        "Designed safe query execution, multi-turn context and natural-language explanations.",
+        "Explored visualizations, ER diagrams and chart selection for relational data."
+      ],
+      "stack": [
+        "React",
+        "FastAPI",
+        "SQL",
+        "LLMs",
+        "Plotly"
+      ],
+      "badge": "Hackathon prototype",
+      "status": "Prototype design",
+      "link": "",
+      "image": "assets/evidence-44.webp"
+    },
+    {
+      "title": "Automated Web Security Testing",
+      "slug": "awpt",
+      "category": [
+        "Cybersecurity",
+        "Web & Product"
+      ],
+      "featured": false,
+      "number": "22",
+      "eyebrow": "Web AppSec · Reporting",
+      "description": "Authorized web-app security assessment workflow integrating OWASP ZAP and a remediation-oriented dashboard.",
+      "details": [
+        "Built a Flask-based front end for authorized target intake and ZAP scan orchestration.",
+        "Organized vulnerability findings by severity with evidence and suggested mitigations.",
+        "Designed SQLite-backed scan history and PDF report generation for responsible assessment."
+      ],
+      "stack": [
+        "Python",
+        "Flask",
+        "OWASP ZAP",
+        "SQLite",
+        "ReportLab"
+      ],
+      "badge": "Application security prototype",
+      "status": "Academic prototype",
+      "link": "",
+      "image": "assets/evidence-27.webp"
+    },
+    {
+      "title": "SAMVAAD-IQ / NETRA",
+      "slug": "samvaad",
+      "category": [
+        "AI & Data",
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "number": "23",
+      "eyebrow": "Investigation AI · Evidence",
+      "description": "Human-in-the-loop investigation copilot concept for cited, auditable police workflows.",
+      "details": [
+        "Designed a multi-language enquiry flow that connects synthetic case records, evidence checks and dossier generation.",
+        "Explored hotspot/network views, patrol planning and audit logs with source-linked explanations.",
+        "Kept analyst verification and approval at the centre of higher-impact decisions."
+      ],
+      "stack": [
+        "Python",
+        "AI Agents",
+        "Zoho Catalyst",
+        "Data Modeling"
+      ],
+      "badge": "Synthetic-data prototype",
+      "status": "Prototype design",
+      "link": "",
+      "image": "assets/evidence-53.webp"
+    }
+  ],
+  "evidence": [
+    {
+      "title": "Indian Army Terrier Cyber Quest 2026 — Stage Felicitation",
+      "category": "Award",
+      "description": "Felicitation on stage with Indian Army & CyberPeace senior officers",
+      "image": "assets/evidence-army-ceremony.jpg"
+    },
+    {
+      "title": "Indian Army Terrier Cyber Quest 2026 — Certificate",
+      "category": "Award",
+      "description": "Certificate of Appreciation · exemplary performance",
+      "image": "assets/evidence-01.webp"
+    },
+    {
+      "title": "IdeaForge Ideathon — First Prize",
+      "category": "Award",
+      "description": "Team PARTH · AVIT 2026",
+      "image": "assets/evidence-02.webp"
+    },
+    {
+      "title": "AI for ALL — First Place, NIT Tiruchirappalli",
+      "category": "Award",
+      "description": "Education thrust area · February 2026",
+      "image": "assets/evidence-03.webp"
+    },
+    {
+      "title": "Tamil Nadu Police Cyber Crime Hackathon",
+      "category": "Finalist",
+      "description": "Top-10 finalist · December 2025",
+      "image": "assets/evidence-04.webp"
+    },
+    {
+      "title": "TN Police Cyber Crime Wing — Recognition",
+      "category": "Event",
+      "description": "Hackathon award-stage photograph",
+      "image": "assets/evidence-05.webp"
+    },
+    {
+      "title": "iTech Hackathon 2025 — ID Masker Tool Presentation",
+      "category": "Event",
+      "description": "Live presentation of ID Masker Tool at iTech Hackathon 2025, Karunguzhipallam, Tamil Nadu",
+      "image": "assets/project-idmask.png"
+    },
+    {
+      "title": "Cardano Hackathon Asia — Top 112",
+      "category": "Finalist",
+      "description": "Asia-level shortlist and Grand Finale",
+      "image": "assets/evidence-06.webp"
+    },
+    {
+      "title": "ET-AI Hackathon — Semi-Finalist",
+      "category": "Finalist",
+      "description": "The Economic Times · May 2026",
+      "image": "assets/evidence-07.webp"
+    },
+    {
+      "title": "AVIT Result Analyzer — Champion",
+      "category": "Award",
+      "description": "Mini Product Showcase 2026",
+      "image": "assets/evidence-08.webp"
+    },
+    {
+      "title": "Result Analyzer — Department Appreciation",
+      "category": "Award",
+      "description": "Recognition for implementation · AVIT",
+      "image": "assets/evidence-09.webp"
+    },
+    {
+      "title": "Silver Spark 2025 — Consolation Prize",
+      "category": "Award",
+      "description": "Award presentation · ₹2,500",
+      "image": "assets/evidence-10.webp"
+    },
+    {
+      "title": "SRM INNOTECH — 3rd Place",
+      "category": "Award",
+      "description": "Solve-A-Thon · 21 August 2025",
+      "image": "assets/evidence-11.webp"
+    },
+    {
+      "title": "GIEC Peace Welfare Innovation — Top 11",
+      "category": "Finalist",
+      "description": "Peace Welfare Innovation Challenge 2025",
+      "image": "assets/evidence-12.webp"
+    },
+    {
+      "title": "Imagination Forge 2025 — Finalist",
+      "category": "Finalist",
+      "description": "Team ECOFORGE INNOVATORS",
+      "image": "assets/evidence-13.webp"
+    },
+    {
+      "title": "Innovation Champions — December 2025",
+      "category": "Award",
+      "description": "#1 on AVIT CSE participation leaderboard",
+      "image": "assets/evidence-14.webp"
+    },
+    {
+      "title": "Innovation Champions — February 2026",
+      "category": "Award",
+      "description": "#1 on AVIT CSE participation leaderboard",
+      "image": "assets/evidence-15.webp"
+    },
+    {
+      "title": "Innovation Champions — March 2026",
+      "category": "Award",
+      "description": "#2 on AVIT CSE participation leaderboard",
+      "image": "assets/evidence-16.webp"
+    },
+    {
+      "title": "Patent Office Journal — ALCF",
+      "category": "Research",
+      "description": "Published application, not granted patent",
+      "image": "assets/evidence-17.webp"
+    },
+    {
+      "title": "AVIT CYFENCE — Club Inauguration",
+      "category": "Event",
+      "description": "Cybersecurity community leadership",
+      "image": "assets/evidence-18.webp"
+    },
+    {
+      "title": "CYFENCE & AVIT — Award Event",
+      "category": "Event",
+      "description": "Recognition with college leadership",
+      "image": "assets/evidence-19.webp"
+    },
+    {
+      "title": "AVIT Student Ambassador Award",
+      "category": "Award",
+      "description": "Annual Day · March 2026",
+      "image": "assets/evidence-20.webp"
+    },
+    {
+      "title": "National Science Day Award Presentation",
+      "category": "Event",
+      "description": "Award-stage photograph",
+      "image": "assets/evidence-21.webp"
+    },
+    {
+      "title": "National Science Day — First Prize Trophy",
+      "category": "Award",
+      "description": "Science project award · 2025",
+      "image": "assets/evidence-22.webp"
+    },
+    {
+      "title": "Google Student Ambassador Participation",
+      "category": "Training",
+      "description": "Program certificate · December 2025",
+      "image": "assets/evidence-23.webp"
+    },
+    {
+      "title": "Innovation Ambassador — Foundation",
+      "category": "Training",
+      "description": "MIC & AICTE · 30 hours",
+      "image": "assets/evidence-24.webp"
+    },
+    {
+      "title": "Innovation Ambassador — Advanced",
+      "category": "Training",
+      "description": "MIC & AICTE · 30 hours",
+      "image": "assets/evidence-25.webp"
+    },
+    {
+      "title": "KC7 — Valdorian Times",
+      "category": "Cyber Labs",
+      "description": "KQL cyber detective scenario",
+      "image": "assets/evidence-26.webp"
+    },
+    {
+      "title": "KC7 — Clout Defender",
+      "category": "Cyber Labs",
+      "description": "Social-engineering lab",
+      "image": "assets/evidence-27.webp"
+    },
+    {
+      "title": "QUANT-A-THON 2026",
+      "category": "Participation",
+      "description": "International hackathon on quantum technology",
+      "image": "assets/evidence-28.webp"
+    },
+    {
+      "title": "DECODE SIH 2026",
+      "category": "Participation",
+      "description": "OSCode participation",
+      "image": "assets/evidence-29.webp"
+    },
+    {
+      "title": "AVIT Hackathon 2026",
+      "category": "Participation",
+      "description": "Certificate dated July 15, 2026",
+      "image": "assets/evidence-30.webp"
+    },
+    {
+      "title": "AVIT iTech Hackathon 2025",
+      "category": "Participation",
+      "description": "AVIT and C3",
+      "image": "assets/evidence-31.webp"
+    },
+    {
+      "title": "Google Solution Challenge — Prototype",
+      "category": "Participation",
+      "description": "Build with AI · July 2026",
+      "image": "assets/evidence-32.webp"
+    },
+    {
+      "title": "DSA for DeepTech — International Bootcamp",
+      "category": "Training",
+      "description": "One-month program · May 2026",
+      "image": "assets/evidence-33.webp"
+    },
+    {
+      "title": "Full Stack Software Development",
+      "category": "Training",
+      "description": "20-hour value-added course · 2025",
+      "image": "assets/evidence-34.webp"
+    },
+    {
+      "title": "Student Innovators Boot Camp",
+      "category": "Training",
+      "description": "Vinayaka Mission’s Research Foundation",
+      "image": "assets/evidence-35.webp"
+    },
+    {
+      "title": "IPR Professional Advancement Program",
+      "category": "Training",
+      "description": "June 2026 · Patent and commercialization",
+      "image": "assets/evidence-36.webp"
+    },
+    {
+      "title": "PALS Think2Impact",
+      "category": "Training",
+      "description": "Industry problem solving workshop · January 2026",
+      "image": "assets/evidence-37.webp"
+    },
+    {
+      "title": "Technoverse 2026",
+      "category": "Participation",
+      "description": "Grand Finale · March 2026",
+      "image": "assets/evidence-38.webp"
+    },
+    {
+      "title": "Mind Sprint 2K25",
+      "category": "Participation",
+      "description": "National-level hackathon workshop",
+      "image": "assets/evidence-39.webp"
+    },
+    {
+      "title": "India AI Impact Buildathon",
+      "category": "Participation",
+      "description": "Nationwide AI innovation challenge",
+      "image": "assets/evidence-40.webp"
+    },
+    {
+      "title": "Innovation Showcase 2K26",
+      "category": "Participation",
+      "description": "AVIT February 2026",
+      "image": "assets/evidence-41.webp"
+    },
+    {
+      "title": "Innovate4FinLit",
+      "category": "Participation",
+      "description": "NCFE / Hack2Skill challenge",
+      "image": "assets/evidence-42.webp"
+    },
+    {
+      "title": "AI for Bharat 2026",
+      "category": "Participation",
+      "description": "Meerut Coders · February 2026",
+      "image": "assets/evidence-43.webp"
+    },
+    {
+      "title": "Coding & Machine Learning Demonstration",
+      "category": "Project",
+      "description": "Fashion image classifier in Jupyter",
+      "image": "assets/evidence-44.webp"
+    },
+    {
+      "title": "BharatRealEstateAI — Prototype Interface",
+      "category": "Project",
+      "description": "RAG-based property discovery proof-of-concept",
+      "image": "assets/evidence-45.webp"
+    },
+    {
+      "title": "Eduooze — Banking Portal Interface",
+      "category": "Project",
+      "description": "Web development screenshot",
+      "image": "assets/evidence-46.webp"
+    },
+    {
+      "title": "Mahindra — Quiet Power Quiz",
+      "category": "Participation",
+      "description": "Leadership-related quiz participation",
+      "image": "assets/evidence-47.webp"
+    },
+    {
+      "title": "MY Bharat Budget Quest 2026",
+      "category": "Participation",
+      "description": "Online quiz · February 2026",
+      "image": "assets/evidence-48.webp"
+    },
+    {
+      "title": "MY Bharat DFPD-II Quiz",
+      "category": "Participation",
+      "description": "Online quiz · February 2026",
+      "image": "assets/evidence-49.webp"
+    },
+    {
+      "title": "National Science Day 2026 Participation",
+      "category": "Participation",
+      "description": "AVIT academic event",
+      "image": "assets/evidence-50.webp"
+    },
+    {
+      "title": "Google The Big Code 2026",
+      "category": "Participation",
+      "description": "Application accepted; qualifier invitation, not a competition win",
+      "image": "assets/evidence-51.webp"
+    },
+    {
+      "title": "Institution Innovation Competition 2026",
+      "category": "Event",
+      "description": "AVIT certificate of appreciation",
+      "image": "assets/evidence-52.webp"
+    },
+    {
+      "title": "TN Police Hackathon — Team Demonstration",
+      "category": "Event",
+      "description": "Project demonstration photograph",
+      "image": "assets/evidence-53.webp"
+    },
+    {
+      "title": "AVIT Event Presentation",
+      "category": "Event",
+      "description": "Technical presentation photograph",
+      "image": "assets/evidence-54.webp"
+    },
+    {
+      "title": "AVIT Winner/Certificate Event",
+      "category": "Event",
+      "description": "Campus technology event",
+      "image": "assets/evidence-55.webp"
+    }
+  ],
+  "awards": [
+    [
+      "01",
+      "Certificate of Appreciation",
+      "Indian Army Terrier Cyber Quest 2026 · KAVACH TRINETRA X2",
+      "National recognition"
+    ],
+    [
+      "02",
+      "First Place",
+      "AI for ALL Ideathon · TATA Centre for AI & ML, NIT Trichy",
+      "Competition winner"
+    ],
+    [
+      "03",
+      "Young Tech Visionary",
+      "Innoventia 2K26 · National-level project expo",
+      "Category award"
+    ],
+    [
+      "04",
+      "2nd Place & Top-10 Finalist",
+      "Tamil Nadu Police Cyber Crime Hackathon 2025",
+      "Competition result"
+    ],
+    [
+      "05",
+      "Top 112 · Grand Finale",
+      "Cardano Hackathon Asia 2025 · IBW Bengaluru",
+      "Asia shortlist"
+    ],
+    [
+      "06",
+      "Champion — Result Analyzer",
+      "AVIT Mini Product Showcase + Department Appreciation",
+      "Product award"
+    ],
+    [
+      "07",
+      "First Prize — Team PARTH",
+      "IdeaForge Ideathon, AVIT 2026",
+      "Competition winner"
+    ],
+    [
+      "08",
+      "Semi-Finalist",
+      "The Economic Times ET-AI Hackathon 2026",
+      "National semifinalist"
+    ],
+    [
+      "09",
+      "Third Place",
+      "SRM INNOTECH 2025 SOLVE-A-THON",
+      "Competition result"
+    ],
+    [
+      "10",
+      "Top 11 Finalists",
+      "GIEC Peace Welfare Innovation Challenge 2025",
+      "Finalist"
+    ],
+    [
+      "11",
+      "₹2,500 Consolation Prize",
+      "Silver Spark 2025 Ideathon",
+      "Award"
+    ],
+    [
+      "12",
+      "2nd Rank — National Level",
+      "IdeaJam / Netrix 2K25",
+      "Competition result"
+    ],
+    [
+      "13",
+      "#1, #1, #2 — AVIT CSE",
+      "Innovation Champions leaderboards: Dec 2025, Feb & Mar 2026",
+      "Campus ranking"
+    ],
+    [
+      "14",
+      "Third Prize — AI Farming",
+      "SRM Hackathon (resume-described recognition)",
+      "Award"
+    ],
+    [
+      "15",
+      "Jury’s Special Appreciation",
+      "INTELLECTION 2025 · Agriculture AI project",
+      "Special mention"
+    ],
+    [
+      "16",
+      "Finalist",
+      "VMRF Imagination Forge 2025 · ECOFORGE INNOVATORS",
+      "Finalist"
+    ],
+    [
+      "17",
+      "Selection for Final Demonstration",
+      "Tamil Nadu Police Hackathon 2024",
+      "Final demonstration"
+    ],
+    [
+      "18",
+      "First Prize — Science Model",
+      "National Science Day competition",
+      "Campus award"
+    ]
+  ],
+  "experience": [
+    {
+      "when": "May–Jul 2026",
+      "role": "Summer Research Intern (selected)",
+      "org": "TATA Centre for AI & ML · NIT Tiruchirappalli",
+      "desc": "Selected for six-week Education Track research after Team PARTH won the AI for ALL Ideathon. Project SUTRADHAR explored local-context tutoring for rural learners.",
+      "image": "assets/evidence-03.webp"
+    },
+    {
+      "when": "2026–Present",
+      "role": "AI/ML Intern",
+      "org": "iTech · AVIT Hackathon 2026 Award",
+      "desc": "Awarded an AI/ML internship after Team PARTH won the AVIT Hackathon 2026, held on 15 July 2026 by AVIT with C3 as an iTech initiative.",
+      "image": "assets/evidence-30.webp"
+    },
+    {
+      "when": "Jan 2026 onward*",
+      "role": "Agentic AI Intern",
+      "org": "Brain O Vision Solutions India Pvt. Ltd.",
+      "desc": "Internship offer dated January 2, 2026. Work described includes AI agents, workflow automation and practical AI decision systems.",
+      "image": "assets/evidence-44.webp"
+    },
+    {
+      "when": "Feb 2026 onward*",
+      "role": "R&D Intern · Campus Catalyst",
+      "org": "Brain O Vision Solutions India Pvt. Ltd.",
+      "desc": "R&D Business internship offer with a start date of February 23, 2026; work described around applied AI research and automation.",
+      "image": "assets/evidence-40.webp"
+    },
+    {
+      "when": "2025 onward*",
+      "role": "Web Developer",
+      "org": "Eduooze Skill Institute · School of Banking",
+      "desc": "Developed the customer-facing banking training and candidate enrollment website. Web Developer, not founder; separate historical Computer Operator offer in 2024.",
+      "image": "assets/evidence-46.webp"
+    },
+    {
+      "when": "2026",
+      "role": "Vice President",
+      "org": "CYFENCE Cybersecurity Club · AVIT",
+      "desc": "Elected to student leadership team and helped promote cybersecurity awareness, technical activities and collaboration.",
+      "image": "assets/evidence-18.webp"
+    },
+    {
+      "when": "2025–2026",
+      "role": "Student Ambassador",
+      "org": "Aarupadai Veedu Institute of Technology",
+      "desc": "Represented institution and received AVIT Student Ambassador recognition during Annual Day in March 2026.",
+      "image": "assets/evidence-20.webp"
+    },
+    {
+      "when": "2025",
+      "role": "Innovation Ambassador · Google Student Ambassador Participant",
+      "org": "MIC & AICTE / Google student programs",
+      "desc": "Completed Foundation and Advanced Innovation Ambassador training, and participated in Google Student Ambassador activities; these were educational/community positions, not Google employment.",
+      "image": "assets/evidence-23.webp"
+    }
+  ]
+}
