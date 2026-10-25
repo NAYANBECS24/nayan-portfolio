@@ -133,3 +133,23 @@
 @keyframes cyber-network-drift{0%{transform:scale(1.03) translate3d(-.7%,-.35%,0);filter:saturate(.82) contrast(1.03)}100%{transform:scale(1.1) translate3d(.8%,.5%,0);filter:saturate(1.05) contrast(1.1)}}
 @media(max-width:767px){.hero-section::before{opacity:.35;background-position:center,center,53% center}}
 @media(prefers-reduced-motion:reduce){.hero-section::before{animation:none;transform:scale(1.05)}}
+
+/* Technology arsenal */
+.tech-arsenal-section{position:relative;overflow:hidden;background:#101114;color:#d7e2ea;padding:clamp(105px,11vw,165px) 0}
+.tech-arsenal-section::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.28;background:radial-gradient(circle at 12% 8%,#245c8a42 0%,transparent 27%),radial-gradient(circle at 91% 76%,#9b167d36 0%,transparent 30%),linear-gradient(120deg,transparent 48%,#ffffff05 48.1%,transparent 48.3%)}
+.tech-arsenal-section .section-shell{position:relative;z-index:1}
+.tech-arsenal-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.78fr);gap:clamp(35px,8vw,130px);align-items:end;margin-bottom:clamp(45px,7vw,90px)}
+.tech-arsenal-heading .section-heading{margin:0;font-size:clamp(64px,10.6vw,180px);line-height:.8}
+.tech-arsenal-heading .section-heading em{color:#92a5b7;font-style:normal}
+.tech-arsenal-heading p{color:#9ba8b4;font-size:clamp(15px,1.35vw,20px);font-weight:300;line-height:1.55;padding-bottom:7px}
+.tech-arsenal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.tech-arsenal-card{min-height:228px;border:1px solid #ffffff1c;border-radius:22px;padding:clamp(21px,2.5vw,35px);background:linear-gradient(140deg,#ffffff0b,#ffffff03);box-shadow:inset 0 1px 0 #ffffff0d;transition:transform .25s ease,border-color .25s ease,background .25s ease}
+.tech-arsenal-card:hover{transform:translateY(-5px);border-color:#aebcc94f;background:linear-gradient(140deg,#ffffff12,#6c267916)}
+.tech-card-top{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:baseline}
+.tech-card-top>span{color:#ca44bc;font-size:11px;font-weight:700;letter-spacing:.15em}
+.tech-card-top h3{color:#eff4f8;font-size:clamp(17px,1.6vw,23px);line-height:1.15;text-transform:uppercase;letter-spacing:.035em}
+.tech-arsenal-card>p{color:#99a6b2;font-size:13px;line-height:1.55;margin:15px 0 21px;max-width:600px}
+.tech-skill-tags{display:flex;flex-wrap:wrap;gap:7px}
+.tech-skill-tags span{display:inline-flex;align-items:center;border:1px solid #cbd9e629;border-radius:999px;padding:6px 10px;background:#1118219c;color:#d5e0e9;font-size:10px;font-weight:600;letter-spacing:.055em;line-height:1.1;transition:background .2s,border-color .2s}
+.tech-arsenal-card:hover .tech-skill-tags span{border-color:#cbd9e645}
+@media(max-width:767px){.tech-arsenal-section{padding:92px 0}.tech-arsenal-heading{grid-template-columns:1fr;gap:24px;margin-bottom:45px}.tech-arsenal-heading .section-heading{font-size:16vw}.tech-arsenal-heading p{font-size:15px}.tech-arsenal-grid{grid-template-columns:1fr;gap:11px}.tech-arsenal-card{min-height:0;padding:22px 19px;border-radius:17px}.tech-card-top{grid-template-columns:38px 1fr;gap:10px}.tech-card-top h3{font-size:18px}.tech-arsenal-card>p{font-size:12px;margin:13px 0 18px}.tech-skill-tags{gap:6px}.tech-skill-tags span{font-size:9px;padding:5px 8px}}
